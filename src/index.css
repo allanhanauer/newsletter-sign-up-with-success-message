@@ -1,0 +1,10 @@
+:root {
+  --clr-primary: hsl(4, 100%, 67%);
+  --clr-text: hsl(234, 29%, 20%);
+  --clr-bg-body: hsl(235, 18%, 26%);
+  --clr-text-button: hsl(231, 7%, 60%);
+  --clr-White: hsl(0, 0%, 100%);
+}
+* {
+  box-sizing: border-box;
+}

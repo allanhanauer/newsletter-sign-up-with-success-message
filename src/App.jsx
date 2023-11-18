@@ -3,6 +3,8 @@ import "./App.css";
 function App() {
   return (
     <>
+      <header></header>
+      
       <footer>
         <p>
           Challenge by{" "}
