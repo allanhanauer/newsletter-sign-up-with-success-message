@@ -5,6 +5,9 @@
   --clr-text-button: hsl(231, 7%, 60%);
   --clr-White: hsl(0, 0%, 100%);
 }
-* {
+*,
+*::before,
+*::after {
+  font-family: "Roboto Bold";
   box-sizing: border-box;
 }
