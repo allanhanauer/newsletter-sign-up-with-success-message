@@ -1,0 +1,44 @@
+:root {
+  --clr-primary: hsl(4, 100%, 67%);
+  --clr-text: hsl(234, 29%, 20%);
+  --clr-bg-body: hsl(235, 18%, 26%);
+  --clr-text-button: hsl(231, 7%, 60%);
+  --clr-White: hsl(0, 0%, 100%);
+}
+main.EndPage {
+  display: flex;
+  flex-direction: column;
+  width: 505px;
+  height: 521px;
+  background-color: white;
+  padding: 65px;
+  border-radius: 36px;
+  justify-content: space-between;
+  box-shadow: 0px 0px 30px hsl(234, 29%, 20%, 0.8);
+  margin-top: 23px;
+}
+#emailEnd {
+  font-weight: 700;
+  text-transform: lowercase;
+}
+#iconSucess {
+  width: 64px;
+  height: 64px;
+}
+.sucess {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#title-end {
+  font-size: 3.46875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.4375rem;
+}
+main.EndPage p {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
